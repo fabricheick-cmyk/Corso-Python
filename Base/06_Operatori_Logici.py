@@ -1,7 +1,7 @@
-# Operatori Logici AND, OR, NOT
+# Operatori Logici AND; OR; NOT
 x = True
 y = False
 
-print(x AND y)
-print(x OR y)
-print( NOT ) 
+print(x and y)
+print(x or y)
+print(not y)
