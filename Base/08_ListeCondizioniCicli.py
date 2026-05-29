@@ -10,7 +10,7 @@
 Esempio: studenti = []         
 """
 
-Studenti = ["Mario", "Luca", "Cheick", "Terry", "Maria"]
+Studenti = ["Mario", "Luca", "Cheick", "Terry", "Maria", "Rudy", "Valentina"]
 print(Studenti)
 
 # Aggiunta di uno studente nella lista
@@ -20,6 +20,14 @@ print(Studenti)
 # Accesso agli elementi
 print(Studenti[2])
 print(Studenti[5])
+
+# Rimuovere elementi
+Studenti.remove(Studenti[4])
+print(Studenti)
+
+# Modifica elementi
+Studenti[0] = "Carlo"
+
 
 
 
